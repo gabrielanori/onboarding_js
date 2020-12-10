@@ -24,3 +24,15 @@ console.dir(String.prototype); // mostra no console, la na pag todos os comandos
 
 console.log("tempo", tempo, typeof tempo);
 console.log("time", time, typeof time);
+
+console.dir(Number.prototype); //API (recursos diponiveis) Colocando dessa forma no console da pag podemos ver todos os recursos disponiveis para NUMBER, vai expor a API
+console.dir(Boolean.prototype); //API (recursos diponiveis)
+console.dir(Date.prototype);
+console.dir(Object.prototype);
+console.dir(Function.prototype);
+console.dir(Array.prototype);
+console.dir(RegExp.prototype);
+console.dir(Math); // API matemática
+
+
+// DOCUMENTAÇÃO DAS FERRAMENTAS DAS LINGUAGENS => https://devdocs.io/
