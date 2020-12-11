@@ -67,7 +67,10 @@ carro.desligar = function() {
 // objeto["metodo"] = function() {}
 carro["buzinar"] = function() {
 return "Fom FOM"
-
 }
 
+
+
 console.log(carro);
+console.log(carro.modelo);
+console.log(carro.ligar());
