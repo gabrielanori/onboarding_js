@@ -15,4 +15,4 @@ let sum = function (n1, n2) { // associa a esta variável, atribui a esta variá
  return result;
 }
 
-console.log( sum(8, 7) );
+console.log( sum(8, 7) ); // dá pra somar soh dois
