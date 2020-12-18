@@ -33,6 +33,4 @@ const auto = {
 // todo objeto tem um protótipo,da onde ele nasceu, nasce a partir de algum construtor _proto_: Object
 
 
-
-
-console.log(auto);
+console.log(auto); // mostra o objt auto
