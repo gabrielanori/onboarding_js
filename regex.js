@@ -25,7 +25,8 @@ $ FIM DA LINHA
 //EMAIL:  ^[A-z0-9\.\-\_]{1,}\.\w{1,}(\.\w{2})?$
 //PLACA DE CARRO: ^[A-z]{3}\-\d{4}$
 
-let meuCep = prompt("Digite seu CEP?");
+// let meuCep = prompt("Digite seu CEP?");
+let meuCep =  "08030-190";
 console.log(meuCep, typeof meuCep);
 
 //Regex - Sintaxe Literal
@@ -34,6 +35,7 @@ console.log(regexCep);
 
 // objetoRegex.test(string)
 // objetoRegex.exec(string)
+// objetoString.match(regex)   Pega um obj q eh uma string e pega o obj referencia API de String do JavaScript
 
 
 console.log(
@@ -47,6 +49,6 @@ console.log(
 );
 
 console.log(
-    regexCep.match(regexCep) // volta null match ou exec qdo nao há correspondencia na expressão ou no valor de entrada
+    meuCep.match(regexCep) // volta null match ou exec qdo nao há correspondencia na expressão ou no valor de entrada. Pega a tua String e casa com a expressao reg
 
 );
